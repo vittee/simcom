@@ -1,3 +1,3 @@
-module.exports = {
-	modem: require('./lib/sim800-modem')
+module.exports = { 
+	modem: require('./lib/modem')
 }
