@@ -1,0 +1,33 @@
+{
+  "name": "sim800-modem",
+  "version": "0.0.0",
+  "description": "Talk to GSM modem SIM800 via Node",
+  "homepage": "https://github.com/vittee/sim800-modem",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vittee/sim800-modem.git"
+  },
+  "keywords": [
+    "at",
+    "gsm",
+    "modem",
+    "serial",
+    "sms",
+    "mms",
+    "ussd"
+  ],
+  "author": {
+    "name": "Wittawas Nakkasem",
+    "email": "vittee@hotmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vittee/sim800-modem/issues"
+  },
+  "dependencies": {
+    "pdu": ">= 1.1.0",
+    "q": ">=1.0.1",
+    "serialport": ">= 1.1.1"
+  }
+}
