@@ -1,3 +1,3 @@
-module.exports = { 
-	modem: require('./lib/modem')
+module.exports = {
+  modem: require('./lib/modem')
 }
