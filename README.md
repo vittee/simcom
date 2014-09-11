@@ -10,7 +10,7 @@ It has been tested on SIM800L module.
 # Example
 
 ### Openning the port
-```
+```javascript
 var modem = require('simcom').modem('/dev/ttyAMA0');
 
 modem.on('open', function() {
@@ -28,13 +28,13 @@ The `modem` function is a factory function, it creates an instance of `Modem` cl
 
 ### Sending raw data
 Talk directly to the modem using `Modem.write()` method.
-```
+```javascript
 modem.write('ATI\r');
 ```
 
 ### Executing a command
 `Modem.execute()` returns a promise which you can easily setup callbacks to process the response or error.
-```
+```javascript
 modem.execute('ATI').then(function(lines) {
   console.log('ATI Response', lines);
 }, function(error) {
