@@ -1,3 +1,4 @@
 module.exports = {
-  modem: require('./lib/modem')
+  modem: require('./lib/modem'),
+  SimCom: require('./lib/simcom')
 }
