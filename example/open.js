@@ -5,7 +5,7 @@ console.log(modem);
 modem.on('open', function() {
   console.log('port open');
 
-  modem.execute("AT+COPS?")
+  modem.execute("ATI")
   .then(function(res) {
     console.log('#1', res.code, res.lines);
     return modem.execute("AT+COPS?");
