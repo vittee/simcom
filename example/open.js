@@ -1,7 +1,5 @@
 var modem = require('../').modem('/dev/ttyAMA0');
 
-console.log(modem);
-
 modem.on('open', function() {
   console.log('port open');
 
@@ -12,6 +10,9 @@ modem.on('open', function() {
   })
   .then(function(res) {
     console.log('#2', res.code, res.lines);
+  })
+  .done(function() {
+  	modem.close();
   });
 
 });
