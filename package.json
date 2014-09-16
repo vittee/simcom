@@ -16,9 +16,9 @@
     "sms",
     "mms",
     "ussd",
-	"simcom",
-	"sim800",
-	"sim900"
+    "simcom",
+    "sim800",
+    "sim900"
   ],
   "author": {
     "name": "Wittawas Nakkasem",
