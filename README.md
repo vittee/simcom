@@ -7,6 +7,11 @@ This module was written with Raspberry Pi aspect in mind, but it basically shoul
 
 It has been tested on SIM800L module.
 
+# Installation
+```sh
+npm install simcom
+```
+
 # Example
 
 ### Openning the port
