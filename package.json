@@ -1,6 +1,6 @@
 {
   "name": "sim800-modem",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Talk to GSM modem SIM800 via Node",
   "homepage": "https://github.com/vittee/sim800-modem",
   "main": "index.js",
